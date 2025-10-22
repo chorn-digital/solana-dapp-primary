@@ -9,8 +9,19 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "lib": ["es2020", "dom"]
+    "lib": [
+      "es2020",
+      "dom"
+    ]
   },
-  "include": ["anchor/scripts/**/*.ts", "anchor/migrations/**/*.ts"],
-  "exclude": ["node_modules", "anchor/target", "src/**/*", ".next/**/*"]
+  "include": [
+    "anchor/scripts/**/*.ts",
+    "anchor/migrations/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "anchor/target",
+    "src/**/*",
+    ".next/**/*"
+  ]
 }

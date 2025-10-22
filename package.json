@@ -1,5 +1,5 @@
 {
-  "name": "solana-dapp-basic",
+  "name": "solana-dapp-primary",
   "scripts": {
     "build": "next build",
     "airdrop:setup": "cd anchor && npx ts-node scripts/index.ts setup",
